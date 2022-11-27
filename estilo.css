@@ -1,0 +1,53 @@
+﻿body {
+    background-color: rgb(14, 11, 189);
+}
+a {
+    max-width: 800px;
+}
+
+* {
+    margin: 7px;
+    padding: 0;
+    border-radius: 15px
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h {
+    background-color: black;
+    border-radius: 20px;
+}
+
+    #menu-h ul {
+        max-width: 800px;
+        list-style: none;
+        padding: 0;
+    }
+
+        #menu-h ul li {
+            display: inline;
+        }
+
+            #menu-h ul li a {
+                color: rgb(252, 251, 249);
+                padding: 20px;
+                display: inline-block;
+                border-radius: 10px;
+                text-decoration: none;
+                transition: background :4s;
+            }
+
+                #menu-h ul li a:hover {
+                    background-color:black;
+                }
+#menu-v {
+    padding: 300;
+    background-color: gray;
+    border-radius: 20px;
+    
+}
+img { left: 2px;
+    margin: 20px;
+    
+}
+
